@@ -29,5 +29,4 @@
 
   <node name="replay" pkg ="rosbag" type="play" args="
       --clock -r 1 $(arg bag_filename)"></node>
-  <node name="record" pkg="rosbag" type="record" args="-a"></node>
 </launch>
